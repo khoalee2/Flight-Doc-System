@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flight_Doc_System", "Flight_Doc_System\Flight_Doc_System.csproj", "{590BF959-1293-48AF-934F-98C1700AE448}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{590BF959-1293-48AF-934F-98C1700AE448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{590BF959-1293-48AF-934F-98C1700AE448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{590BF959-1293-48AF-934F-98C1700AE448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{590BF959-1293-48AF-934F-98C1700AE448}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8278DC6F-0AA5-477C-96A3-59A29C55CF2B}
+	EndGlobalSection
+EndGlobal
