@@ -22,6 +22,7 @@ namespace Flight_Doc_System.Models
         public ApplicationRole() : base() { }
         public ApplicationRole(string roleName) : base(roleName) { }
     }
+
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
@@ -35,5 +36,7 @@ namespace Flight_Doc_System.Models
         }
 
         public System.Data.Entity.DbSet<Flight_Doc_System.Models.Document> Documents { get; set; }
+
+        
     }
 }
