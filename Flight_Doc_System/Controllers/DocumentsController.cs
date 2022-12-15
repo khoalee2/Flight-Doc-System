@@ -17,6 +17,8 @@ namespace Flight_Doc_System.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: Documents
+
+        [Authorize]
         public async Task<ActionResult> Index()
         {
             return View(await db.Documents.ToListAsync());
@@ -121,7 +123,7 @@ namespace Flight_Doc_System.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult UploadFile(HttpPostedFileBase file)
+        public ActionResult UplxoadFile(HttpPostedFileBase file)
         {
             try
             {

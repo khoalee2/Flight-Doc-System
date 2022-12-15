@@ -35,6 +35,7 @@ namespace Flight_Doc_System.Controllers
             }
         }
         // GET: Role
+        [Authorize]
         public ActionResult Index()
         {
             List<RoleViewModel> list = new List<RoleViewModel>();

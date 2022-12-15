@@ -8,14 +8,15 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 </head>
 <body>
     <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
         <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
-        <a  class="w3-bar-item w3-button">@Html.ActionLink("Dash Board","Index","Home")</a>
-        <a  class="w3-bar-item w3-button">@Html.ActionLink("Dash Board", "Index", "Home")</a>
-        <a  class="w3-bar-item w3-button">@Html.ActionLink("Dash Board", "Index", "Home")</a>
+        <a  style='font-size:20px' class="w3-bar-item w3-button" href="@Url.Action("Index","Home")"><i class="far fa-image"></i>Dash Board</a>
+        <a style='font-size:20px' class="w3-bar-item w3-button" href="@Url.Action("Index","Documents")"><i class="far fa-image"></i>Flight Docs</a>
+        
     </div>
 
     <!-- Page Content -->
@@ -38,7 +39,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year</p>
         </footer>
     </div>
 
